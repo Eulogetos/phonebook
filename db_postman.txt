@@ -1,0 +1,13 @@
+CREATE TABLE `phonebook` (
+  `Id` varchar(100) NOT NULL,
+  `Name` varchar(100) DEFAULT NULL,
+  `PhoneNumber` varchar(100) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+--postman 
+{
+    "id": 12,
+    "name": "Andre Situmorang",
+    "phoneNumber": "0123456",
+    "errMassage": null
+}
